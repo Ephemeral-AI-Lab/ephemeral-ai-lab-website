@@ -1,0 +1,8 @@
+{
+  "scannedAt": "2026-08-16",
+  "existingFiles": ["README.md", "resume.md", "asset/"],
+  "existingHallmarkStamp": null,
+  "existingDesignSystem": false,
+  "existingAppShell": false,
+  "decision": "Build the requested home page as a vanilla HTML/CSS entry point using the supplied sliced SVG assets."
+}

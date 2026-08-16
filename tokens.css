@@ -1,0 +1,44 @@
+/* Hallmark · pre-emit critique: P5 H5 E4 S5 R5 V5 · genre: editorial · macrostructure: Marquee Hero · theme: Sumi-e Atelier · enrichment: Tier B · nav: N9 · footer: Ft1 · contrast: pass (40–41) · slop: pass (42–45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · icons: pass (30) · mobile: pass (34, 49, 50–57) */
+:root {
+  --color-paper: oklch(96.6% 0.014 86);
+  --color-paper-soft: oklch(98.4% 0.008 86);
+  --color-paper-deep: oklch(91.8% 0.018 86);
+  --color-ink: oklch(20% 0.013 74);
+  --color-ink-soft: oklch(36% 0.012 74);
+  --color-ink-faint: oklch(52% 0.01 74);
+  --color-rule: oklch(45% 0.012 74 / 0.28);
+  --color-seal: oklch(49% 0.19 29);
+  --color-focus: oklch(44% 0.15 29);
+  --color-card-border: oklch(65% 0.012 74 / 0.18);
+  --color-card-surface: oklch(98% 0.01 86 / 0.48);
+  --shadow-card: 0 1rem 2rem -1.25rem oklch(26% 0.02 74 / 0.32);
+  --shadow-divider: 0 0.4rem 0.65rem oklch(25% 0.018 74 / 0.1);
+  --shadow-card-hover: 0 1.25rem 2rem -1.25rem oklch(26% 0.02 74 / 0.42);
+
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-body: "Newsreader", ui-serif, Georgia, serif;
+  --font-ui: "IBM Plex Sans", ui-sans-serif, sans-serif;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: clamp(2.1rem, 3.1vw, 4.6rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --dur-short: 180ms;
+  --dur-medium: 300ms;
+}
